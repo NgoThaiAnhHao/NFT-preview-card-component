@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Manrope:wght@500&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rowdies:wght@300;400;700&family=Rye&family=Vina+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="card__container">
+      <div class="card">
+        <div class="img">
+          <div class="card__img">
+            <div class="card__img--icon"></div>
+            <img src="./icons/icon-view.svg" alt="photo" class="icon" />
+          </div>
+        </div>
+        <h1 class="card__title">Equilibrium #3429</h1>
+        <p class="card__desc">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+
+        <div class="card__information">
+          <div class="card__information-item card__information-item--money">
+            <img
+              src="./icons/icon-ethereum.svg"
+              alt="photo"
+              class="card__information-icon"
+            />
+            <p class="card__information-detail">0.041 ETH</p>
+          </div>
+
+          <div class="card__information-item card__information-item--time">
+            <img
+              src="./icons/icon-clock.svg"
+              alt="photo"
+              class="card__information-icon"
+            />
+            <p class="card__information-detail">3 days left</p>
+          </div>
+        </div>
+
+        <hr class="card__line" />
+
+        <div class="card__user">
+          <img
+            src="./images/image-avatar.png"
+            alt="photo"
+            class="card__user--avt"
+          />
+          <p class="card__user--info">Creation of</p>
+          <p class="card__user--name">Jules Wyvern</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/NgoThaiAnhHao" target="_blank"
+        >Ngo Thai Anh Hao</a
+      >.
+    </div>
+  </body>
+</html>
