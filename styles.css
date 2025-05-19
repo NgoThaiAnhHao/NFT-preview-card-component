@@ -125,6 +125,10 @@ body {
   align-items: center;
 }
 
+.card__information-item--money .card__information-detail {
+  color: var(--Cyan-400-pri);
+}
+
 .card__information-item {
   display: flex;
   flex-direction: row;
